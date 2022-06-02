@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<%- include('./partials/head.ejs')%>
+
+    <body>
+        <header>
+            <%- include('./partials/header.ejs')%>
+        </header>
+        <nav>
+
+            <div class="container">
+                <ul>
+                    <% for(let i=0; i < clubs.length; i++){ %>
+
+                        <li>
+                            <a href="/clubs/<%=clubs[i]._id%>">
+                                <%= clubs[i].name %>
+                            </a>
+
+
+                        </li>
+                        <% } %>
+                </ul>
+        </nav>
+        </div>
+
+
+
+    </body>
+
+</html>
