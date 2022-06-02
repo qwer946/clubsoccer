@@ -9,7 +9,9 @@ const methodOverride = require("method-override");
 const PORT = 3000;
 
 // Database Connection
-mongoose.connect(process.env.DATABASE_URL, {});
+mongoose.connect(process.env.DATABASE_URL, {
+  useUnifiedTopology: true,
+});
 // Database Connection Error/Success
 const db = mongoose.connection;
 db.on("error", (err) => console.log(err.message + " is mongo not running?"));
