@@ -1,4 +1,4 @@
-# clubsoccer
+# Create Club
 
  Its create a soccer club website were you add your team name, logo and about the club history.
  
