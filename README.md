@@ -20,4 +20,4 @@
 [Click Here](https://createkclubz.herokuapp.com/clubs) to see the deployed of the app.
 
 # Future Enhancement 
-I really want to add the when your club was founded and the capacity of your stadium and the location. I also want add more css more css to make it cleaner.
+I'd want to include the year your team was created, as well as the stadium's capacity and location. I'd also like to add additional CSS to make it seem cleaner.
